@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Nombre y apellidos"
+read Nom Apellidos
+echo -n "Comando:"
+read cmd
+$cmd
+echo "Gracias $Apellidos,$Nom"
+exit 0
